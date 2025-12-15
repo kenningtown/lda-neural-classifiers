@@ -11,8 +11,8 @@ The script:
 4. saves a boxplot of train/test CV accuracies.
 
 Files:
-lda_proect.py: implementation and experiments
-bcidata.mat: dataset file (must be present locally to run)
+ - lda_proect.py: implementation and experiments
+ - bcidata.mat: dataset file (must be present locally to run)
 
 Output files:
  - ncc-lda-comparison.pdf — histogram of classifier scores on the test set and accuracies

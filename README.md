@@ -18,14 +18,13 @@ Output files:
  - ncc-lda-comparison.pdf — histogram of classifier scores on the test set and accuracies
  - figure2_boxplot_accy.pdf — boxplot of train vs. test accuracy across CV folds
 
-Dataset format (bcidata.mat)
-The code expects the .mat file to contain:
-X: EEG data array (the script reshapes it into (dims × samples))
-Y: labels (converted to {-1, +1})
 
+Dataset format (bcidata.mat):
+ - X: EEG data array (the script reshapes it into (dims × samples))
+ - Y: labels (converted to {-1, +1})
 
 Requirements:
-Python 3.8+ recommended
-NumPy
-SciPy
-Matplotlib
+ - Python 3.8+ recommended
+ - NumPy
+ - SciPy
+ - Matplotlib
